@@ -1,5 +1,10 @@
 #Boxcar.io Provider API bundle for Laravel
 
+##Install  
+
+    php artisan bundle:install boxcar  
+  
+  
 ##Usage
 In your routes.php simply start the bundle, set your login info, and call the API  
   
