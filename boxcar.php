@@ -222,7 +222,6 @@ class Boxcar {
 	 * @return string 
 	 */
 	private function default_response_handler ($result) {
-		print_r($result);
 
 		// work out what to do based on http code
 		switch ($result['http_code']) {
